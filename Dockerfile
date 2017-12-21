@@ -7,7 +7,7 @@ RUN apk --no-cache --update add \
   ;
 
 ARG \
-  exiv=0.25
+  exiv=0.26
 
 RUN apk --no-cache --update add --virtual=build-deps \
   autoconf \
